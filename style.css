@@ -11,8 +11,8 @@ body {
 }
 
 .common {
-    background-color: green;
-    height: 100vh;
+    background-color: #23A8E0;
+    height: 90vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -26,7 +26,20 @@ body {
 }
 
 .cards-scroll {
-    padding: 100px 0;
+    padding: 100px 50px;
+}
+
+.card-1{
+    background-color: #F28585;
+}
+.card-2{
+    background-color: #FFA447;
+}
+.card-3{
+    background-color: #FFFC9B;
+}
+.card-4{
+    background-color: #B7E5B4;
 }
 
 .card {
@@ -35,18 +48,25 @@ body {
     width: 100%;
     top: 50px;
     position: sticky;
-    border: 1px solid red;
     text-align: center;
-    background-color: white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 30px;
+    /* margin-left: auto;
+    margin-right: auto; */
 }
 
+.card h3 {
+    color: white;
+    font-size: 100px;
+}
+
+
 .card-header {
-    background: gray;
     width: 100%;
     min-height: 70px;
     padding: 8px 20px 14px;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
